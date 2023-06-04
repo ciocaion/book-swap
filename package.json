@@ -1,0 +1,46 @@
+{
+  "name": "book-swap",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.19",
+    "@chakra-ui/react": "^2.6.1",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@firebase/storage": "^0.11.2",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/node": "20.0.0",
+    "@types/react": "18.2.5",
+    "@types/react-dom": "18.2.3",
+    "autoprefixer": "10.4.14",
+    "firebase": "^9.21.0",
+    "firebase-admin": "^11.8.0",
+    "firebase-firestore-lite": "^1.0.3",
+    "framer-motion": "^4.1.17",
+    "lottie-react": "^2.4.0",
+    "next": "13.4.0",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-icons": "^4.8.0",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.1",
+    "redux-persist": "^6.0.0",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/react-lottie": "^1.2.6",
+    "cypress": "^12.12.0",
+    "next-router-mock": "^0.9.3"
+  }
+}
